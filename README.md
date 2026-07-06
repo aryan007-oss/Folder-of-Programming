@@ -8,8 +8,9 @@ A lightweight, modular Python utility designed to convert temperature values sea
 
 ## 🛠️ Components
 
-* **`temp.ipynb`** : A clean, empty Jupyter Notebook workspace prepared for interactive execution, testing, or quick prototyping using the script functions.
 * **`temperature.py`** : The core utility script containing highly optimized functional blocks for basic and advanced temperature scale transitions.
+* **`temp.ipynb`** : A clean, empty Jupyter Notebook workspace prepared for interactive execution, testing, or quick prototyping using the script functions.
+
 
   ## 🚀 Features & Core Functions
 
