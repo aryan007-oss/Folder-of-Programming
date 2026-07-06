@@ -2,7 +2,7 @@
 
 # Temperature Conversion Utility
 
-A lightweight, modular Python utility designed to convert temperature values seamlessly between **Celsius**, **Fahrenheit**, and **Kelvin**. This repository provides both a reusable script backend and a Jupyter Notebook scratchpad for interactive testing.
+A lightweight, modular Python utility designed to convert temperature values seamlessly between **Celcius**, **Fahrenheit**, and **Kelvin**. This repository provides both a reusable script backend and a Jupyter Notebook scratchpad for interactive testing.
 
 ---
 
@@ -18,11 +18,11 @@ The utility exposes the following transformation functions inside `temperature.p
 
 | Target Scale | Source Scale | Function Name |
 | :--- | :--- | :--- |
-| **Celsius** | Fahrenheit | `fahrenheit_to_celcius(fahrenheit)` |
-| **Celsius** | Kelvin | `kelvin_to_celcius(kelvin)` |
-| **Fahrenheit** | Celsius | `celcius_to_fahrenheit(celcius)` |
+| **Celcius** | Fahrenheit | `fahrenheit_to_celcius(fahrenheit)` |
+| **Celcius** | Kelvin | `kelvin_to_celcius(kelvin)` |
+| **Fahrenheit** | Celcius | `celcius_to_fahrenheit(celcius)` |
 | **Fahrenheit** | Kelvin | `kelvin_to_fahrenheit(kelvin)` |
-| **Kelvin** | Celsius | `celcius_to_kelvin(celcius)` |
+| **Kelvin** | Celcius | `celcius_to_kelvin(celcius)` |
 | **Kelvin** | Fahrenheit | `fahrenheit_to_kelvin(fahrenheit)` |
 
 > 📌 **Note:** The script also includes a generic `celcius(temperature)` alias mapping Fahrenheit inputs directly to Celsius values.
